@@ -474,8 +474,8 @@ main {
   scroll-snap-align: center;
     /* Permite que si el scroll se queda a medias de 2 elementos, te ayuda a elegir uno */
   width: 70%;
-  min-width: 250px;
-  max-width: 320px;
+  min-width: 240px;
+  max-width: 310px;
   height: 290rem;
   /* margin: 50rem 0 0; */
   margin: 50px 10px 0;
@@ -509,9 +509,9 @@ main {
 
 .plan-card--title {
   padding-top: 40px;
-  font-size: 18px;
+  font-size: 20rem;
   font-weight: bold;
-  line-height: 23px;
+  line-height: 25px;
   color: var(--soft-black);
 }
 .special .plan-card--title, .special .plan-card--price {
@@ -520,27 +520,27 @@ main {
 
 .plan-card--price {
   padding: 10px 0;
-  font-size: 52rem;
+  font-size: 60rem;
   font-weight: bold;
   color: black;
 }
 
 .plan-card--price span {
-  font-size: 12rem;
+  font-size: 16rem;
   font-weight: 300;
-  vertical-align: 30px;
+  vertical-align: 35px;
   margin-right: 5px;
 }
 
 .plan-card--saving {
-  font-size: var(--paragraphs);
+  font-size: 16rem;
   color: var(--secondary-grey);
 }
 
 .plan-card--ca {
   width: 150px;
   height: 48px;
-  margin-top: 25px;
+  margin-top: 15px;
   background-color: var(--soft-white);
   border: 2px solid var(--bitcoin-orange);
   border-radius: 5px;
