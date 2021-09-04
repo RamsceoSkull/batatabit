@@ -478,12 +478,12 @@ main {
   scroll-snap-align: center;
     /* Permite que el scroll se quede a medias de 2 elementos, te ayuda a elegir uno */
   width: 70%;
-  min-width: 230px;
-  max-width: 330px;
+  min-width: 300px;
+  max-width: 400px;
   /* max-width: 230px; */
   height: 250rem;
   /* margin: 50rem 0 0; */
-  margin: 50rem 10rem 0;
+  margin: 50rem 7rem 0;
     /* Alternativa en caso de que no funcione el gap */
   padding: 0 15rem;
   background-color: var(--white);
