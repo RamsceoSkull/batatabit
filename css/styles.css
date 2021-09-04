@@ -479,7 +479,7 @@ main {
     /* Permite que el scroll se quede a medias de 2 elementos, te ayuda a elegir uno */
   width: 70%;
   min-width: 250px;
-  max-width: 350px;
+  max-width: 300px;
   /* max-width: 230px; */
   height: 250rem;
   /* margin: 50rem 0 0; */
