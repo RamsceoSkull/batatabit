@@ -89,7 +89,7 @@ header img {
   height: 48rem;
   background-color: var(--soft-white);
   /* Sombra: */
-  box-shadow: 0rem 4rem 8rem rgba(89, 73, 30, 0.3);
+  box-shadow: 0rem 4rem 8rem rgba(89, 73, 30, 0.6);
   border: none;
   border-radius: 5rem;
   font-size: var(--paragraphs);
@@ -355,7 +355,7 @@ main {
   padding: 15rem;
   background-color: var(--soft-black);
   border-radius: 5px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
 }
 
 .product-detail--card span {
@@ -477,7 +477,6 @@ main {
   width: 70%;
   min-width: 250px;
   max-width: 300px;
-  /* max-width: 230px; */
   height: 270rem;
   /* margin: 50rem 0 0; */
   margin: 50rem 7rem 0;
@@ -485,7 +484,7 @@ main {
   padding: 0 15rem;
   background-color: var(--white);
   border-radius: 15px;
-  box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
+  box-shadow: 0 4px 8px rgba(89, 73, 30, 0.5);
 }
 
 .membership {
