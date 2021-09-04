@@ -269,11 +269,11 @@ header img {
   line-height: 20rem;
 }
 
-.left img {
+footer .left img {
   align-self: center;
   width: 16px;
   margin-right: 10px;
 }
 .right img {
-  width: 19%;
+  width: 15%;
 }

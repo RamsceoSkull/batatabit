@@ -16,6 +16,9 @@
   --grey: #BABABA;
   --soft-white: #FAF8F7;
   --white: #FFFFFF;
+  /* Tamaño de fuentes */
+  --titles: 24rem;
+  --paragraphs: 14rem;
 }
 
 * {
@@ -69,7 +72,7 @@ header img {
 
 .header--title-container p {
   margin-top: 25rem;
-  font-size: 14rem;
+  font-size: var(--paragraphs);
   font-weight: 500;
   line-height: 18rem;
   color: var(--soft-orange);
@@ -89,7 +92,7 @@ header img {
   box-shadow: 0rem 4rem 8rem rgba(89, 73, 30, 0.3);
   border: none;
   border-radius: 5rem;
-  font-size: 14rem;
+  font-size: var(--paragraphs);
   font-weight: bold;
   text-decoration: none;
   color: var(--soft-black);
@@ -252,27 +255,21 @@ main {
   background-repeat: no-repeat;
 }
 
-.main__left-button > span {
+.main__left-button > span, .main__right-button > span {
   display: block;
-  height: 24rem;
-  width: 24rem;
-  margin-bottom: 50rem;
-  background-image: url('../assets/icons/left-arrow.svg');
+  height: 24px;
+  width: 24px;
+  margin-bottom: 35px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   cursor: pointer;
 }
+.main__left-button > span {
+  background-image: url('../assets/icons/left-arrow.svg');
+}
 .main__right-button > span {
-  display: block;
-  height: 24rem;
-  width: 24rem;
-  margin-bottom: 50rem;
   background-image: url('../assets/icons/right-arrow.svg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  cursor: pointer;
 }
 .hidden {
   display: none;
@@ -406,7 +403,7 @@ main {
 .bitcoin-img-container {
   width: 100%;
   min-width: 320px;
-  height: 70vh;
+  height: 60vh;
   background-image: url('../assets/img/bitcoinbaby2x.jpg');
   background-size: cover;
   background-position: center;
@@ -457,7 +454,7 @@ main {
   /* gap: 20px; */
     /* Espacio entre items cuando estamos utilizando flex pero no todos
     los navegadores están adaptados para usar esta propiedad */
-  height: 320px;
+  height: 340px;
   overflow-x: scroll;
   overscroll-behavior-x: contain;
   scroll-snap-type: x proximity;
@@ -481,7 +478,7 @@ main {
   min-width: 250px;
   max-width: 300px;
   /* max-width: 230px; */
-  height: 250rem;
+  height: 270rem;
   /* margin: 50rem 0 0; */
   margin: 50rem 7rem 0;
     /* Alternativa en caso de que no funcione el gap */
@@ -627,5 +624,5 @@ footer .left ul {
 }
 .right img {
   padding: 25px 0 10px;
-  width: 60%;
+  width: 45%;
 }
