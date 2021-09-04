@@ -474,8 +474,8 @@ main {
   scroll-snap-align: center;
     /* Permite que si el scroll se queda a medias de 2 elementos, te ayuda a elegir uno */
   width: 70%;
-  min-width: 230px;
-  max-width: 300px;
+  min-width: 250px;
+  max-width: 320px;
   height: 290rem;
   /* margin: 50rem 0 0; */
   margin: 50px 10px 0;
