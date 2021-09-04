@@ -1,0 +1,150 @@
+:root {
+  /* Colores */
+  --bitcoin-orange: #F7931A;
+  --soft-orange: #FFE9D5;
+  --secondary-blue: #1A9AF7;
+  --soft-blue: #E7F5FF;
+  --black: #201E1C;
+  --soft-black: #282623;
+  --grey: #BABABA;
+  --soft-white: #FAF8F7;
+  --white: #FFFFFF;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 6.25%;
+  font-family: 'Muli', sans-serif;
+  scroll-behavior: smooth;
+}
+
+header {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  min-width: 320px;
+  height: 15vh;
+  text-align: center;
+}
+
+header img {
+  width: 150rem;
+  height: 24rem;
+  align-self: center;
+}
+
+.header--title-container {
+  width: 90%;
+  min-width: 288px;
+  max-width: 900px;
+  height: 218px;
+  margin-top: 40rem;
+  text-align: center;
+  align-self: center;
+}
+
+body {
+  width: 100%;
+  background: linear-gradient(207.8deg, #201E1C 16.69%, #F7931A 100%);
+}
+
+main {
+  display: flex;
+  align-self: center;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0px 30rem;
+  height: 75vh;
+}
+
+.message__wrap {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+.message__wrap--box {
+  width: auto;
+  height: auto;
+  float: left;
+  background: transparent;
+  border: 0;
+  overflow: hidden;
+}
+
+.text {
+  text-align: center;
+  margin-top: 25rem;
+  color: var(--soft-white);
+  font-size: 70rem;
+  font-family: sans-serif;
+  text-transform: uppercase;
+}
+
+.animated {
+  animation-duration: 2.5s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+  40% {transform: translateY(-30px);}
+  60% {transform: translateY(-15px);}
+}
+.bounce {
+  animation-name: bounce;
+}
+.message__wrap--title {
+  color: var(--white);
+  font-size: 18rem;
+  text-align: center;
+  margin-top: 10rem;
+}
+
+footer {
+  /* background: linear-gradient(207.8deg, #562a00 16.69%, #201E1C 100%); */
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+  padding: 0 auto;
+}
+
+footer section {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.left a {
+  font-size: 14rem;
+  font-weight: 500;
+  text-decoration: none;
+  margin-left: 15rem;
+  color: var(--white);
+}
+.left a:visited {
+  color: var(--soft-orange);
+}
+.left a:hover {
+  text-decoration: underline;
+}
+
+.left img {
+  align-self: center;
+  width: 14px;
+  margin-right: 5px;
+}
+.right img {
+  width: 60%;
+  padding: 10px 0 0;
+}
