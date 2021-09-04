@@ -226,7 +226,7 @@ header img {
   width: 70%;
   min-width: 200px;
   max-width: 270px;
-  height: 270rem;
+  min-height: 270rem;
   margin: 50rem 10rem 0;
   padding: 0 15rem;
   background-color: var(--white);

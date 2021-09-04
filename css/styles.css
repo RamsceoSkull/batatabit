@@ -478,8 +478,8 @@ main {
   scroll-snap-align: center;
     /* Permite que el scroll se quede a medias de 2 elementos, te ayuda a elegir uno */
   width: 70%;
-  min-width: 200px;
-  max-width: 300px;
+  min-width: 230px;
+  max-width: 330px;
   /* max-width: 230px; */
   height: 250rem;
   /* margin: 50rem 0 0; */
@@ -537,7 +537,7 @@ main {
   margin-right: 5px;
 }
 
-  .plan-card--saving {
+.plan-card--saving {
   font-size: 14rem;
   color: #757575;
 }
@@ -627,4 +627,5 @@ footer .left ul {
 }
 .right img {
   padding: 25px 0 10px;
+  width: 60%;
 }
