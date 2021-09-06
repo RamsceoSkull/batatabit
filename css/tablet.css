@@ -223,6 +223,15 @@ header img {
   line-height: 20rem;
 }
 
+footer {
+  padding: 15px 30px 10px;
+}
+footer .left {
+  justify-content: left;
+}
+footer .right {
+  justify-content: right;
+}
 footer .left ul {
   padding: 15px 0 0;
 }
